@@ -1,0 +1,3 @@
+SELECT SUM(supply_chain.fact_order_lines.In_Full) FROM supply_chain.fact_order_lines INNER JOIN supply_chain.dim_date ON supply_chain.fact_order_lines.order_placement_date=supply_chain.dim_date.date where supply_chain.dim_date.week_no="W 10";
+SELECT count(supply_chain.fact_order_lines.In_Full) FROM supply_chain.fact_order_lines INNER JOIN supply_chain.dim_date ON supply_chain.fact_order_lines.order_placement_date=supply_chain.dim_date.date where supply_chain.dim_date.week_no="W 10" AND supply_chain.fact_order_lines.In_Full='0';
+SELECT agreed_delivery_date , actual_delivery_date FROM supply_chain.fact_order_lines
