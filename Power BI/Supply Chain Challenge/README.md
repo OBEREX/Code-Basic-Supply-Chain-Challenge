@@ -19,7 +19,6 @@ Create relevant insights that are not provided in the metric list/stakeholder me
 1. None of the KPI targets were met, this might explain why customers are not renewing their contracts.
 2. A significant drop in overall orders towards the end of the month of August 
 ### Recommendations
-1. Ensure the Latest deliveries don't exceed 1 day.
-2. Re-evaluate how delivery timelines are estimated in order to set realistic delivery timelines.
+1. Ensure the deliveries don't exceed 1 day in delay.
+2. Re-evaluate delivery timelines estimates in order to set realistic delivery timelines.
 3. An overall improvement on "On Time" and "In Full" KPIs. "In Full" KPI can be addressed by making improvements on QA/QC in the manufacturing process to ensure orders are complete and also tracking of shipment and cargo transportation to ensure ordered products are complete before the transportation to customers or cities
-4. 
